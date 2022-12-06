@@ -1,0 +1,269 @@
+/*Esta parte pertenece a la pagia de index*/
+
+
+
+h1 {
+/*tamaño de la fuente*/
+font-size: 30px;  
+font-family: cursive;  
+color: rgb(69, 70, 88);  
+}
+
+.contenedor{
+    max-width: 1200px;
+   
+    display: flex;
+}
+
+
+.flex{
+    display: flex;
+    
+}
+
+ul{
+list-style: none;
+padding-left: 5px;
+width: 5px;
+
+}
+
+ul li{
+    padding: 10px;
+    
+    font-family:cursive;
+
+    text-decoration:none
+    
+}
+
+
+nav{
+    display: flex;
+    align-items: auto;
+    font-size:large;
+    margin-left:470px;
+   
+}
+.parallax {
+
+    background-image: url("../IMAGENES/imagen2.PNG");
+  
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax h2{
+   
+    color: rgb(229, 230, 241);
+    text-align:center;
+    
+}
+.campo{
+    padding: 370px;
+    text-align:center;
+}
+button{
+   
+    text-align:center;
+}
+
+
+
+/*Finaliza page index*/
+
+
+/*Comienzo de css para page de integrantes*/
+/*Finaliza css page de integrantes*/
+
+
+
+/*Comienzo de css para page de Discografia*/
+.contenedor3{
+    background-image:url("../IMAGENES/imagen3.PNG");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 900px;
+    max-width: 1200px;
+    margin:auto
+    
+}
+.flex3{
+    display: flex;
+    
+} 
+
+ul{
+    display: flex;
+    list-style: none;
+    padding-left: 5px;
+    width: 5px;
+    }
+    
+    ul li{
+        padding: 10px;
+        background-color: rgb(50, 145, 235);
+        text-transform: uppercase;
+        font-family:cursive;
+        text-decoration:none
+        
+    }
+    ul li :hover{ 
+        background-color: aqua;
+    }    
+    
+
+    .h2{
+        color: aqua;    
+        font-family: cursive  
+        }
+
+.grid3{
+    display: grid;
+    grid-template-columns: repeat( 12, 100px)  ;
+    grid-template-rows:repeat(12, 100px) ;
+}
+
+.img1{
+    transform: scale(1);
+    transition: all .5s;
+    height: auto;
+    width: 125%;
+    
+}
+.img1:hover{
+    transform: scale(1.1);
+    width: 125%;
+}
+.img2{
+    transform: scale(1);
+    transition: all .5s;
+    height: auto;
+    max-width: 82%;
+}
+.img2:hover{
+    transform: scale(1.1);
+    width: 125%;
+}
+.img3{
+    transform: scale(1);
+    transition: all .5s;
+    height: auto;
+    max-width: 117%;
+}
+.img3:hover{
+    transform: scale(1.1);
+    width: 125%;
+}
+.img4{
+    transform: scale(1);
+    transition: all .5s;
+    height: auto;
+    max-width: 120%;
+}
+.img4:hover{
+    transform: scale(1.1);
+    width: 125%;
+}
+.img5{
+    transform: scale(1);
+    transition: all .5s;
+    height: auto;
+    max-width: 83%;
+}
+.img5:hover{
+    transform: scale(1.1);
+    width: 125%;
+}
+.img6{
+    transform: scale(1);
+    transition: all .5s;
+    height: auto;
+    max-width: 123%;
+}
+.img6:hover{
+    transform: scale(1.1);
+    width: 125%;
+}
+.celda1{
+    
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.col h3{
+    padding-inline-start: 50px;
+    justify-content: center;
+    font-family: cursive;
+}
+
+.col p{
+    padding-inline-start: 50px;
+    padding-inline-end: 100px;
+    justify-content: center;
+    font-family: cursive;
+}
+
+.col a{
+    background-color: rgb(150, 191, 230);
+    text-decoration: none; /* quita el subrayado */
+    padding: 20px;
+    
+    margin-top: 50px;
+}
+
+.celda2{
+    
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 5;
+    grid-column-end: 9;
+}
+
+.celda3{
+    
+    grid-row-start: 1;
+    grid-row-end: 4;
+    grid-column-start: 9;
+    grid-column-end: 12;
+}
+
+.celda4{
+    
+    grid-row-start: 7;
+    grid-row-end: 12;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.celda5{
+    
+    grid-row-start: 7;
+    grid-row-end: 12;
+    grid-column-start: 5;
+    grid-column-end: 9;
+}
+
+.celda6{
+    
+    grid-row-start: 7;
+    grid-row-end: 12;
+    grid-column-start: 9;
+    grid-column-end: 12;
+}
+
+
+
+
+
+
+/*Finaliza css page de Discografia*/
+
+
+
+/*Comienzo de css para page de Contacto*/
+/*Finaliza css page de Contacto*/
