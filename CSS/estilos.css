@@ -130,7 +130,7 @@ ul{
 .grid3{
     display: grid;
     grid-template-columns: repeat( 12, 100px)  ;
-    grid-template-rows:repeat(12, 100px) ;
+    grid-template-rows:repeat(50, 100px) ;
 }
 
 .img1{
