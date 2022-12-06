@@ -83,10 +83,13 @@ button{
 
 /*Comienzo de css para page de Discografia*/
 .contenedor3{
-    background:url("../IMAGENES/imagen3.PNG");
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image:url("../IMAGENES/imagen3.PNG");
     
+    height: 700px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   
     
 }
@@ -104,9 +107,9 @@ ul{
     
     ul li{
         padding: 10px;
-        background-color: rgb(50, 145, 235);
+        color: rgb(101, 206, 224);
         text-transform: uppercase;
-        font-family:cursive;
+        font-family:Georgia, 'Times New Roman', Times, serif;
         text-decoration:none
         
     }
@@ -114,10 +117,14 @@ ul{
         background-color: aqua;
     }    
     
+    .titulo1{
+        color: rgb(101, 206, 224);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
 
     .h2{
-        color: aqua;    
-        font-family: cursive  
+        color: rgb(101, 206, 224);    
+        font-family: Georgia, 'Times New Roman', Times, serif;
         }
 
 .grid3{
@@ -208,13 +215,7 @@ ul{
     font-family: cursive;
 }
 
-.col a{
-    background-color: rgb(150, 191, 230);
-    text-decoration: none; /* quita el subrayado */
-    padding: 20px;
-    
-    margin-top: 50px;
-}
+
 
 .celda2{
     
