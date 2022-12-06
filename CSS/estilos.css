@@ -83,12 +83,11 @@ button{
 
 /*Comienzo de css para page de Discografia*/
 .contenedor3{
-    background-image:url("../IMAGENES/imagen3.PNG");
+    background:url("../IMAGENES/imagen3.PNG");
     background-repeat: no-repeat;
     background-position: center;
-    height: 900px;
-    max-width: 1200px;
-    margin:auto
+    
+  
     
 }
 .flex3{
