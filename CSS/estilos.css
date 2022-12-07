@@ -85,7 +85,7 @@ button{
 .contenedor3{
     background-image:url("../IMAGENES/imagen3.PNG");
     
-    height: 700px;
+    height: 600px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -95,7 +95,7 @@ button{
 }
 .flex3{
     display: flex;
-    
+    color: rgb(101, 206, 224);
 } 
 
 ul{
@@ -103,20 +103,25 @@ ul{
     list-style: none;
     padding-left: 5px;
     width: 5px;
+    
     }
     
     ul li{
         padding: 10px;
-        color: rgb(101, 206, 224);
         text-transform: uppercase;
-        font-family:Georgia, 'Times New Roman', Times, serif;
+        
         text-decoration:none
         
     }
     ul li :hover{ 
-        background-color: aqua;
+        background-color: rgb(255, 255, 255);
     }    
     
+    ul li a{
+        text-transform: uppercase;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: rgb(101, 206, 224);
+    }
     .titulo1{
         color: rgb(101, 206, 224);
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -130,14 +135,14 @@ ul{
 .grid3{
     display: grid;
     grid-template-columns: repeat( 12, 100px)  ;
-    grid-template-rows:repeat(50, 100px) ;
+    grid-template-rows:repeat(25, 100px) ;
 }
 
 .img1{
     transform: scale(1);
     transition: all .5s;
     height: auto;
-    width: 125%;
+    width: 119%;
     
 }
 .img1:hover{
@@ -148,7 +153,7 @@ ul{
     transform: scale(1);
     transition: all .5s;
     height: auto;
-    max-width: 82%;
+    max-width: 118%;
 }
 .img2:hover{
     transform: scale(1.1);
@@ -158,17 +163,17 @@ ul{
     transform: scale(1);
     transition: all .5s;
     height: auto;
-    max-width: 117%;
+    max-width: 118%;
 }
 .img3:hover{
     transform: scale(1.1);
-    width: 125%;
+    width: 127%;
 }
 .img4{
     transform: scale(1);
     transition: all .5s;
     height: auto;
-    max-width: 120%;
+    max-width: 119%;
 }
 .img4:hover{
     transform: scale(1.1);
@@ -178,7 +183,7 @@ ul{
     transform: scale(1);
     transition: all .5s;
     height: auto;
-    max-width: 83%;
+    max-width: 118%;
 }
 .img5:hover{
     transform: scale(1.1);
@@ -188,7 +193,7 @@ ul{
     transform: scale(1);
     transition: all .5s;
     height: auto;
-    max-width: 123%;
+    max-width: 119%;
 }
 .img6:hover{
     transform: scale(1.1);
@@ -196,64 +201,67 @@ ul{
 }
 .celda1{
     
-    grid-row-start: 1;
-    grid-row-end: 4;
-    grid-column-start: 1;
-    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 5;
 }
 
 .col h3{
-    padding-inline-start: 50px;
+    padding-inline-start: 80px;
     justify-content: center;
-    font-family: cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(78, 187, 93);
 }
 
+
 .col p{
-    padding-inline-start: 50px;
+    padding-inline-start: 60px;
     padding-inline-end: 100px;
     justify-content: center;
-    font-family: cursive;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(78, 187, 93);
 }
 
 
 
 .celda2{
     
-    grid-row-start: 1;
-    grid-row-end: 4;
-    grid-column-start: 5;
-    grid-column-end: 9;
+    grid-row-start: 5;
+    grid-row-end: 8;
+    grid-column-start: 8;
+    grid-column-end: 11;
 }
 
 .celda3{
     
-    grid-row-start: 1;
-    grid-row-end: 4;
-    grid-column-start: 9;
-    grid-column-end: 12;
+    grid-row-start: 8;
+    grid-row-end: 11;
+    grid-column-start: 2;
+    grid-column-end: 5;
 }
 
 .celda4{
     
-    grid-row-start: 7;
-    grid-row-end: 12;
-    grid-column-start: 1;
-    grid-column-end: 4;
+    grid-row-start: 11;
+    grid-row-end: 14;
+    grid-column-start: 8;
+    grid-column-end: 11;
 }
 .celda5{
     
-    grid-row-start: 7;
-    grid-row-end: 12;
-    grid-column-start: 5;
-    grid-column-end: 9;
+    grid-row-start: 14;
+    grid-row-end: 17;
+    grid-column-start: 2;
+    grid-column-end: 5;
 }
 
 .celda6{
     
-    grid-row-start: 7;
-    grid-row-end: 12;
-    grid-column-start: 9;
-    grid-column-end: 12;
+    grid-row-start: 17;
+    grid-row-end: 20;
+    grid-column-start: 8;
+    grid-column-end: 11;
 }
 
 
