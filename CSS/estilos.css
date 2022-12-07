@@ -182,6 +182,7 @@ ul{
 .img1:hover{
     transform: scale(1.1);
     width: 125%;
+    transform: rotateY(180deg);
 }
 .img2{
     transform: scale(1);
@@ -192,6 +193,7 @@ ul{
 .img2:hover{
     transform: scale(1.1);
     width: 125%;
+    transform: rotateY(180deg);
 }
 .img3{
     transform: scale(1);
@@ -202,6 +204,7 @@ ul{
 .img3:hover{
     transform: scale(1.1);
     width: 127%;
+    transform: rotateY(180deg);
 }
 .img4{
     transform: scale(1);
@@ -212,17 +215,22 @@ ul{
 .img4:hover{
     transform: scale(1.1);
     width: 125%;
+    transform: rotateY(180deg);
 }
 .img5{
     transform: scale(1);
     transition: all .5s;
     height: auto;
     max-width: 118%;
+    
 }
 .img5:hover{
     transform: scale(1.1);
     width: 125%;
+    transform: rotateY(180deg);
+    
 }
+
 .img6{
     transform: scale(1);
     transition: all .5s;
@@ -233,6 +241,7 @@ ul{
 .img6:hover{
     transform: scale(1.1);
     width: 125%;
+    transform: rotateY(180deg);
 }
 .celda1{
     
@@ -390,3 +399,31 @@ ul{
 
 /*Comienzo de css para page de Contacto*/
 /*Finaliza css page de Contacto*/
+
+/* Seccion telefono*/
+/* Mobile first */
+section {
+    display: flex;
+
+    /* Los hijos se hacen multilinea */
+    flex-wrap: wrap;
+}
+section div {
+    flex-basis: 100%;
+    
+}
+
+@media (min-width: 768px) { /* Tablet */
+    
+    /* 2 columnas */
+    section div {
+        flex-basis:50%;
+    }
+}
+@media (min-width: 1025px) { /* Compu */
+
+    /* 4 columnas */
+    section div {
+        flex-basis: 25%;
+    }
+}
