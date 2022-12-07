@@ -182,7 +182,6 @@ ul{
 .img1:hover{
     transform: scale(1.1);
     width: 125%;
-    transform: rotateY(180deg);
 }
 .img2{
     transform: scale(1);
@@ -228,7 +227,7 @@ ul{
     transform: scale(1.1);
     width: 125%;
     transform: rotateY(180deg);
-    
+    transform: rotateY(180deg);
 }
 
 .img6{
