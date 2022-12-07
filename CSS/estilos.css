@@ -77,6 +77,40 @@ button{
 
 
 /*Comienzo de css para page de integrantes*/
+
+.flex2{
+    display: flex;
+    color: rgb(101, 206, 224);
+} 
+
+ul{
+    display: flex;
+    list-style: none;
+    padding-left: 5px;
+    width: 5px;
+    
+    }
+    
+    ul li{
+        padding: 10px;
+        text-transform: uppercase;
+        
+        text-decoration:none
+        
+    }
+    ul li :hover{ 
+        background-color: rgb(255, 255, 255);
+    }    
+    
+    ul li a{
+        text-transform: uppercase;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        color: rgb(101, 206, 224);
+    }
+    .titulo2{
+        color: rgb(101, 206, 224);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
 /*Finaliza css page de integrantes*/
 
 
@@ -216,14 +250,13 @@ ul{
 
 
 .col p{
+    color: rgb(78, 187, 93);
     padding-inline-start: 60px;
     padding-inline-end: 100px;
-    justify-content: center;
+    justify-content:center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(78, 187, 93);
+    
 }
-
-
 
 .celda2{
     
