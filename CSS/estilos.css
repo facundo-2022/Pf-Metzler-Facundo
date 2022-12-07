@@ -228,6 +228,7 @@ ul{
     transition: all .5s;
     height: auto;
     max-width: 119%;
+    
 }
 .img6:hover{
     transform: scale(1.1);
@@ -241,22 +242,103 @@ ul{
     grid-column-end: 5;
 }
 
-.col h3{
-    padding-inline-start: 80px;
-    justify-content: center;
+.cont1 h3{
+    padding-inline-start: 40px;
+ 
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(78, 187, 93);
+    color: rgb(101, 206, 224);
 }
 
 
-.col p{
-    color: rgb(78, 187, 93);
-    padding-inline-start: 60px;
-    padding-inline-end: 100px;
+.cont1 p{
+    color: rgb(101, 206, 224);
+    padding-inline-start: 40px;
+    padding-inline-end: 30px;
     justify-content:center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
+.cont2 h3{
+    padding-inline-start: 40px;
+ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(101, 206, 224);
+}
+
+
+.cont2 p{
+    color: rgb(101, 206, 224);
+    padding-inline-start: 40px;
+    padding-inline-end: 30px;
+    justify-content:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.cont3 h3{
+    padding-inline-start: 40px;
+ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(101, 206, 224);
+}
+
+
+.cont3 p{
+    color: rgb(101, 206, 224);
+    padding-inline-start: 40px;
+    padding-inline-end: 30px;
+    justify-content:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.cont4 h3{
+    padding-inline-start: 40px;
+ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(101, 206, 224);
+}
+
+
+.cont4 p{
+    color: rgb(101, 206, 224);
+    padding-inline-start: 40px;
+    padding-inline-end: 30px;
+    justify-content:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.cont5 h3{
+    padding-inline-start: 40px;
+ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(101, 206, 224);
+}
+
+
+.cont5 p{
+    color: rgb(101, 206, 224);
+    padding-inline-start: 40px;
+    padding-inline-end: 30px;
+    justify-content:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.cont6 h3{
+    padding-inline-start: 40px;
+ 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(101, 206, 224);
+}
+
+
+.cont6 p{
+    color: rgb(101, 206, 224);
+    padding-inline-start: 40px;
+    padding-inline-end: 30px;
+    justify-content:center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
 
 .celda2{
     
