@@ -388,7 +388,9 @@ ul{
 }
 
 
-
+.col7 p{
+color: white;
+}
 
 
 
@@ -400,29 +402,19 @@ ul{
 /*Finaliza css page de Contacto*/
 
 /* Seccion telefono*/
-/* Mobile first */
-section {
-    display: flex;
+@media (max-width: 1024px) { 
+    /* Tablet */
 
-    /* Los hijos se hacen multilinea */
-    flex-wrap: wrap;
-}
-section div {
-    flex-basis: 100%;
-    
-}
-
-@media (min-width: 768px) { /* Tablet */
-    
     /* 2 columnas */
     section div {
-        flex-basis:50%;
+        flex-basis: 50%;
     }
 }
-@media (min-width: 1025px) { /* Compu */
+@media (max-width: 767px) {
+    /* Celular */
 
-    /* 4 columnas */
+    /* 1 columnas */
     section div {
-        flex-basis: 25%;
+        flex-basis: 100%;
     }
 }
