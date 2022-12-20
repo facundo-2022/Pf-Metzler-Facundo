@@ -1,0 +1,420 @@
+/*Esta parte pertenece a la pagia de index*/
+
+
+
+h1 {
+    /*tamaño de la fuente*/
+    font-size: 30px;  
+    font-family: cursive;  
+    color: rgb(69, 70, 88);  
+    }
+    
+    .contenedor{
+        max-width: 1200px;
+       
+        display: flex;
+    }
+    
+    
+    .flex{
+        display: flex;
+        
+    }
+    
+    ul{
+    list-style: none;
+    padding-left: 5px;
+    width: 5px;
+    
+    }
+    
+    ul li{
+        padding: 10px;
+        
+        font-family:cursive;
+    
+        text-decoration:none
+        
+    }
+    
+    
+    nav{
+        display: flex;
+        align-items: auto;
+        font-size:large;
+        margin-left:470px;
+       
+    }
+    .parallax {
+    
+        background-image: url("../IMAGENES/imagen2.PNG");
+      
+        height: 700px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .parallax h2{
+       
+        color: rgb(229, 230, 241);
+        text-align:center;
+        
+    }
+    .campo{
+        padding: 370px;
+        text-align:center;
+    }
+    button{
+       
+        text-align:center;
+    }
+    
+    
+    
+    /*Finaliza page index*/
+    
+    
+    /*Comienzo de css para page de integrantes*/
+    
+    .flex2{
+        display: flex;
+        color: rgb(101, 206, 224);
+    } 
+    
+    ul{
+        display: flex;
+        list-style: none;
+        padding-left: 5px;
+        width: 5px;
+        
+        }
+        
+        ul li{
+            padding: 10px;
+            text-transform: uppercase;
+            
+            text-decoration:none
+            
+        }
+        ul li :hover{ 
+            background-color: rgb(255, 255, 255);
+        }    
+        
+        ul li a{
+            text-transform: uppercase;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            color: rgb(101, 206, 224);
+        }
+        .titulo2{
+            color: rgb(101, 206, 224);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    /*Finaliza css page de integrantes*/
+    
+    
+    
+    /*Comienzo de css para page de Discografia*/
+    .contenedor3{
+        background-image:url("../IMAGENES/imagen3.PNG");
+        
+        height: 600px;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      
+        
+    }
+    .flex3{
+        display: flex;
+        color: rgb(101, 206, 224);
+    } 
+    
+    ul{
+        display: flex;
+        list-style: none;
+        padding-left: 5px;
+        width: 5px;
+        
+        }
+        
+        ul li{
+            padding: 10px;
+            text-transform: uppercase;
+            
+            text-decoration:none
+            
+        }
+        ul li :hover{ 
+            background-color: rgb(255, 255, 255);
+        }    
+        
+        ul li a{
+            text-transform: uppercase;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            color: rgb(101, 206, 224);
+        }
+        .titulo1{
+            color: rgb(101, 206, 224);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+    
+        .h2{
+            color: rgb(101, 206, 224);    
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+    
+    .grid3{
+        display: grid;
+        grid-template-columns: repeat( 12, 100px)  ;
+        grid-template-rows:repeat(25, 100px) ;
+    }
+    
+    .img1{
+        transform: scale(1);
+        transition: all .5s;
+        height: auto;
+        width: 119%;
+        
+    }
+    .img1:hover{
+        transform: scale(1.1);
+        width: 125%;
+    }
+    .img2{
+        transform: scale(1);
+        transition: all .5s;
+        height: auto;
+        max-width: 118%;
+    }
+    .img2:hover{
+        transform: scale(1.1);
+        width: 125%;
+        transform: rotateY(180deg);
+    }
+    .img3{
+        transform: scale(1);
+        transition: all .5s;
+        height: auto;
+        max-width: 118%;
+    }
+    .img3:hover{
+        transform: scale(1.1);
+        width: 127%;
+        transform: rotateY(180deg);
+    }
+    .img4{
+        transform: scale(1);
+        transition: all .5s;
+        height: auto;
+        max-width: 119%;
+    }
+    .img4:hover{
+        transform: scale(1.1);
+        width: 125%;
+        transform: rotateY(180deg);
+    }
+    .img5{
+        transform: scale(1);
+        transition: all .5s;
+        height: auto;
+        max-width: 118%;
+        
+    }
+    .img5:hover{
+        transform: scale(1.1);
+        width: 125%;
+        transform: rotateY(180deg);
+        transform: rotateY(180deg);
+    }
+    
+    .img6{
+        transform: scale(1);
+        transition: all .5s;
+        height: auto;
+        max-width: 119%;
+        
+    }
+    .img6:hover{
+        transform: scale(1.1);
+        width: 125%;
+        transform: rotateY(180deg);
+    }
+    .celda1{
+        
+        grid-row-start: 2;
+        grid-row-end: 5;
+        grid-column-start: 2;
+        grid-column-end: 5;
+    }
+    
+    .cont1 h3{
+        padding-inline-start: 40px;
+     
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(101, 206, 224);
+    }
+    
+    
+    .cont1 p{
+        color: rgb(238, 245, 247);
+        padding-inline-start: 40px;
+        padding-inline-end: 30px;
+        justify-content:center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+    }
+    .cont2 h3{
+        padding-inline-start: 40px;
+     
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(101, 206, 224);
+    }
+    
+    
+    .cont2 p{
+        color: rgb(238, 245, 247);
+        padding-inline-start: 40px;
+        padding-inline-end: 30px;
+        justify-content:center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+    }
+    .cont3 h3{
+        padding-inline-start: 40px;
+     
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(101, 206, 224);
+    }
+    
+    
+    .cont3 p{
+        color: rgb(238, 245, 247);
+        padding-inline-start: 40px;
+        padding-inline-end: 30px;
+        justify-content:center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+    }
+    .cont4 h3{
+        padding-inline-start: 40px;
+     
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(101, 206, 224);
+    }
+    
+    
+    .cont4 p{
+        color: rgb(238, 245, 247);
+        padding-inline-start: 40px;
+        padding-inline-end: 30px;
+        justify-content:center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+    }
+    .cont5 h3{
+        padding-inline-start: 40px;
+     
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(101, 206, 224);
+    }
+    
+    
+    .cont5 p{
+        color: rgb(238, 245, 247);
+        padding-inline-start: 40px;
+        padding-inline-end: 30px;
+        justify-content:center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+    }
+    .cont6 h3{
+        padding-inline-start: 40px;
+     
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(101, 206, 224);
+    }
+    
+    
+    .cont6 p{
+        color: rgb(238, 245, 247);
+        padding-inline-start: 40px;
+        padding-inline-end: 30px;
+        justify-content:center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+    }
+    
+    
+    .celda2{
+        
+        grid-row-start: 5;
+        grid-row-end: 8;
+        grid-column-start: 8;
+        grid-column-end: 11;
+    }
+    
+    .celda3{
+        
+        grid-row-start: 8;
+        grid-row-end: 11;
+        grid-column-start: 2;
+        grid-column-end: 5;
+    }
+    
+    .celda4{
+        
+        grid-row-start: 11;
+        grid-row-end: 14;
+        grid-column-start: 8;
+        grid-column-end: 11;
+    }
+    .celda5{
+        
+        grid-row-start: 14;
+        grid-row-end: 17;
+        grid-column-start: 2;
+        grid-column-end: 5;
+    }
+    
+    .celda6{
+        
+        grid-row-start: 17;
+        grid-row-end: 20;
+        grid-column-start: 8;
+        grid-column-end: 11;
+    }
+    
+    
+    .col7 p{
+    color: white;
+    }
+    
+    
+    
+    /*Finaliza css page de Discografia*/
+    
+    
+    
+    /*Comienzo de css para page de Contacto*/
+    /*Finaliza css page de Contacto*/
+    
+    /* Seccion telefono*/
+    @media (max-width: 1024px) { 
+        /* Tablet */
+    
+        /* 2 columnas */
+        section div {
+            flex-basis: 50%;
+        }
+    }
+    @media (max-width: 767px) {
+        /* Celular */
+    
+        /* 1 columnas */
+        section div {
+            flex-basis: 100%;
+        }
+    }
