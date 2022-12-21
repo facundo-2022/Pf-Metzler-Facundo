@@ -1,5 +1,8 @@
 @charset "UTF-8";
 /*Esta parte pertenece a la pagia de index*/
+.bg-light {
+  background: #777477 !important; }
+
 h1 {
   /*tamaño de la fuente*/
   font-size: 30px;
