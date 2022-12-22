@@ -1,16 +1,16 @@
 @charset "UTF-8";
 /*Esta parte pertenece a la pagia de index*/
+.contenedor {
+  max-width: auto;
+  display: flex;
+  background-color: #85b8eb; }
+
 h1 {
   /*tamaño de la fuente*/
   font-size: 30px;
   padding: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #454658; }
-
-.contenedor {
-  max-width: auto;
-  display: flex;
-  background-color: #85b8eb; }
 
 ul li {
   font-family: Georgia, 'Times New Roman', Times, serif; }
@@ -49,6 +49,12 @@ button {
   max-width: auto;
   display: flex;
   background-color: #85b8eb; }
+
+.h1 {
+  font-size: 30px;
+  padding: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #454658; }
 
 .flex2 {
   display: flex;
@@ -302,9 +308,6 @@ ul li a {
 
 /*Finaliza css page de Discografia*/
 /*Comienzo de css para page de Contacto*/
-.campos label {
-  background: cornflowerblue; }
-
 /*Finaliza css page de Contacto*/
 /* Seccion telefono*/
 @media (max-width: 1024px) {
