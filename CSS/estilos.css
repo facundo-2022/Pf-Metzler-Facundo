@@ -1,54 +1,47 @@
 @charset "UTF-8";
 /*Esta parte pertenece a la pagia de index*/
-.bg-light {
-  background: #777477 !important; }
-
 h1 {
   /*tamaño de la fuente*/
   font-size: 30px;
-  font-family: cursive;
+  padding: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   color: #454658; }
 
 .contenedor {
-  max-width: 1200px;
-  display: flex; }
-
-.flex {
-  display: flex; }
-
-ul {
-  list-style: none;
-  padding-left: 5px;
-  width: 5px; }
+  max-width: auto;
+  display: flex;
+  background-color: #85b8eb; }
 
 ul li {
-  padding: 10px;
-  font-family: cursive;
-  text-decoration: none; }
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+ul li :hover {
+  background-color: #f0e8e8;
+  border-radius: 7%; }
 
 nav {
   display: flex;
   align-items: auto;
-  font-size: large;
-  margin-left: 470px; }
+  font-size: large; }
 
 .parallax {
   background-image: url("../IMAGENES/imagen2.PNG");
-  height: 700px;
+  height: auto;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
 
 .parallax h2 {
-  color: #e5e6f1;
-  text-align: center; }
+  text-align: center;
+  color: #e5e6f1; }
 
 .campo {
-  padding: 370px;
+  padding: 330px;
   text-align: center; }
 
 button {
+  background-color: #1c6434;
   text-align: center; }
 
 /*Finaliza page index*/
@@ -69,7 +62,7 @@ ul li {
   text-decoration: none; }
 
 ul li :hover {
-  background-color: white; }
+  background-color: #f0e8e8; }
 
 ul li a {
   text-transform: uppercase;
@@ -305,6 +298,9 @@ ul li a {
 
 /*Finaliza css page de Discografia*/
 /*Comienzo de css para page de Contacto*/
+.campos label {
+  background: cornflowerblue; }
+
 /*Finaliza css page de Contacto*/
 /* Seccion telefono*/
 @media (max-width: 1024px) {
