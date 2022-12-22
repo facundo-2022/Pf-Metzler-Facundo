@@ -113,6 +113,11 @@
             color: rgb(101, 206, 224);
             font-family: Georgia, 'Times New Roman', Times, serif;
         }
+
+     
+        
+      
+      
         @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 *{
@@ -135,6 +140,7 @@ body{
     justify-content: center;
     flex-wrap: wrap;
 }
+
 
 .card__father{
     margin: 20px;
@@ -311,6 +317,7 @@ body{
         justify-content: center;
         flex-wrap: wrap;
     }
+
     
     .card__father{
         margin: 20px;
@@ -357,7 +364,7 @@ body{
         width: 100%;
         height: 100%;
         text-align: center;
-        padding: 40px;
+        padding: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -376,19 +383,19 @@ body{
     }
     
     .body__card_back{
-        padding: 40px;
+        padding: 30px;
         text-align: center;
         transform: translateZ(60px);
     }
     
-    .body__card_back p{
-        margin-top: 30px;
-        font-size: 18px;
+    .body__card_back .ul1{
+        margin-top: 5px;
+        font-size: 10px;
     }
     
     .body__card_back input{
-        padding: 10px 40px;
-        margin-top: 30px;
+        padding: 10px 20px;
+        margin-top:100px;
         font-size: 16px;
         cursor: pointer;
         border: none;
