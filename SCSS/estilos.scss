@@ -287,227 +287,121 @@ body{
         grid-template-rows:repeat(25, 100px) ;
     }
     
-    .img1{
-        transform: scale(1);
-        transition: all .5s;
-        height: auto;
-        width: 119%;
-        
+   
+    /*parte nueva de discografia*/
+    @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Lato', sans-serif;
     }
-    .img1:hover{
-        transform: scale(1.1);
-        width: 125%;
+    
+    body{
+        background: #F1FAFF;
     }
-    .img2{
-        transform: scale(1);
-        transition: all .5s;
-        height: auto;
-        max-width: 118%;
+    
+    .container__card{
+        max-width: 1200px;
+        margin: auto;
+        margin-top: 100px;
+        perspective: 1000px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
     }
-    .img2:hover{
-        transform: scale(1.1);
-        width: 125%;
-        transform: rotateY(180deg);
+    
+    .card__father{
+        margin: 20px;
+        perspective: 1000px;
     }
-    .img3{
-        transform: scale(1);
-        transition: all .5s;
-        height: auto;
-        max-width: 118%;
-    }
-    .img3:hover{
-        transform: scale(1.1);
-        width: 127%;
-        transform: rotateY(180deg);
-    }
-    .img4{
-        transform: scale(1);
-        transition: all .5s;
-        height: auto;
-        max-width: 119%;
-    }
-    .img4:hover{
-        transform: scale(1.1);
-        width: 125%;
-        transform: rotateY(180deg);
-    }
-    .img5{
-        transform: scale(1);
-        transition: all .5s;
-        height: auto;
-        max-width: 118%;
-        
-    }
-    .img5:hover{
-        transform: scale(1.1);
-        width: 125%;
-        transform: rotateY(180deg);
+    
+    .card__father:hover .card{
         transform: rotateY(180deg);
     }
     
-    .img6{
-        transform: scale(1);
-        transition: all .5s;
-        height: auto;
-        max-width: 119%;
-        
+    
+    .card{
+        width: 350px;
+        height: 400px;
+        position: relative;
+        transform-style: preserve-3d;
+        transition: all 600ms;
     }
-    .img6:hover{
-        transform: scale(1.1);
-        width: 125%;
+    
+    .card__front{
+        background-size: cover;
+        background-position: center;
+    }
+    
+    
+    .card__front,
+    .card__back{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        backface-visibility: hidden;
+        transform-style: preserve-3d;
+        border-radius: 20px;
+    }
+    
+    .card__back{
         transform: rotateY(180deg);
-    }
-    .celda1{
-        
-        grid-row-start: 2;
-        grid-row-end: 5;
-        grid-column-start: 2;
-        grid-column-end: 5;
+        background: white;
     }
     
-    .cont1 h3{
-        padding-inline-start: 40px;
-     
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        color: rgb(101, 206, 224);
+    .body__card_front{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        padding: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        transform: translateZ(60px);
     }
     
-    
-    .cont1 p{
-        color: rgb(238, 245, 247);
-        padding-inline-start: 40px;
-        padding-inline-end: 30px;
-        justify-content:center;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        
-    }
-    .cont2 h3{
-        padding-inline-start: 40px;
-     
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        color: rgb(101, 206, 224);
+    .bg{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background: rgba(0,0,0,0.4);
+        border-radius: 20px;
     }
     
-    
-    .cont2 p{
-        color: rgb(238, 245, 247);
-        padding-inline-start: 40px;
-        padding-inline-end: 30px;
-        justify-content:center;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        
-    }
-    .cont3 h3{
-        padding-inline-start: 40px;
-     
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        color: rgb(101, 206, 224);
+    .body__card_back{
+        padding: 40px;
+        text-align: center;
+        transform: translateZ(60px);
     }
     
-    
-    .cont3 p{
-        color: rgb(238, 245, 247);
-        padding-inline-start: 40px;
-        padding-inline-end: 30px;
-        justify-content:center;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        
-    }
-    .cont4 h3{
-        padding-inline-start: 40px;
-     
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        color: rgb(101, 206, 224);
+    .body__card_back p{
+        margin-top: 30px;
+        font-size: 18px;
     }
     
-    
-    .cont4 p{
-        color: rgb(238, 245, 247);
-        padding-inline-start: 40px;
-        padding-inline-end: 30px;
-        justify-content:center;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        
-    }
-    .cont5 h3{
-        padding-inline-start: 40px;
-     
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        color: rgb(101, 206, 224);
+    .body__card_back input{
+        padding: 10px 40px;
+        margin-top: 30px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        color: white;
+        background: #58B0F6;
+        box-shadow: 1px 1px 30px -5px #58B0F6;
+        border-radius: 10px;
+        transition: box-shadow 600ms;
     }
     
-    
-    .cont5 p{
-        color: rgb(238, 245, 247);
-        padding-inline-start: 40px;
-        padding-inline-end: 30px;
-        justify-content:center;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        
+    .body__card_back input:hover{
+        box-shadow: 1px 1px 30px 0px #449de6;
     }
-    .cont6 h3{
-        padding-inline-start: 40px;
-     
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        color: rgb(101, 206, 224);
-    }
-    
-    
-    .cont6 p{
-        color: rgb(238, 245, 247);
-        padding-inline-start: 40px;
-        padding-inline-end: 30px;
-        justify-content:center;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        
-    }
-    
-    
-    .celda2{
-        
-        grid-row-start: 5;
-        grid-row-end: 8;
-        grid-column-start: 8;
-        grid-column-end: 11;
-    }
-    
-    .celda3{
-        
-        grid-row-start: 8;
-        grid-row-end: 11;
-        grid-column-start: 2;
-        grid-column-end: 5;
-    }
-    
-    .celda4{
-        
-        grid-row-start: 11;
-        grid-row-end: 14;
-        grid-column-start: 8;
-        grid-column-end: 11;
-    }
-    .celda5{
-        
-        grid-row-start: 14;
-        grid-row-end: 17;
-        grid-column-start: 2;
-        grid-column-end: 5;
-    }
-    
-    .celda6{
-        
-        grid-row-start: 17;
-        grid-row-end: 20;
-        grid-column-start: 8;
-        grid-column-end: 11;
-    }
-    
-    
-    .col7 p{
-    color: white;
-    }
-    
-    
     
     /*Finaliza css page de Discografia*/
     
