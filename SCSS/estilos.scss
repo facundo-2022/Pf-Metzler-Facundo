@@ -2,14 +2,7 @@
 
 
 
-h1 {
-    /*tamaño de la fuente*/
-    font-size: 30px;  
-    
-    padding: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-    color: rgb(69, 70, 88);  
-    }
+
     
     .contenedor{
         max-width: auto;
@@ -17,9 +10,14 @@ h1 {
         background-color: rgb(133, 184, 235);
     }    
     
-    .container{
+    h1 {
+        /*tamaño de la fuente*/
+        font-size: 30px;  
         
-    }
+        padding: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif; 
+        color: rgb(69, 70, 88);  
+        }
     
     ul li{
         font-family: Georgia, 'Times New Roman', Times, serif;  
@@ -71,6 +69,19 @@ h1 {
     
     
     /*Comienzo de css para page de integrantes*/
+
+    .contenedor2{
+        max-width: auto;
+        display: flex;
+        background-color: rgb(133, 184, 235);
+    }   
+
+    h1.{
+        font-size: 30px;  
+        padding: 30px;
+        font-family: Georgia, 'Times New Roman', Times, serif; 
+        color: rgb(69, 70, 88);  
+        }
     
     .flex2{
         display: flex;

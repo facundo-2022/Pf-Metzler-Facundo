@@ -45,6 +45,11 @@ button {
 
 /*Finaliza page index*/
 /*Comienzo de css para page de integrantes*/
+.contenedor2 {
+  max-width: auto;
+  display: flex;
+  background-color: #85b8eb; }
+
 .flex2 {
   display: flex;
   color: #65cee0; }
