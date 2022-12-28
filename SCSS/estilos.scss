@@ -2,7 +2,7 @@
 
 
 
-
+   
     
     .contenedor{
         max-width: auto;
@@ -10,10 +10,9 @@
         background-color: rgb(133, 184, 235);
     }    
     
-    .h1 {
+    .contenedor h1 {
         /*tamaño de la fuente*/
         font-size: 20px;  
-        
         padding: 20px;
         font-family: Georgia, 'Times New Roman', Times, serif; 
         color:  rgb(72, 72, 73); 
@@ -48,13 +47,15 @@
     }
     
     .parallax h2{
+        margin: center;
         text-align:center;
         color: rgb(229, 230, 241);
        
         
     }
-    .campo{
-        padding: 330px;
+    .row{
+        margin: center;
+        padding: 10%;
         text-align:center;
     }
     button{
@@ -256,10 +257,21 @@ body{
         color: rgb(236, 243, 244);
         }
 
-    .disco p{
-        font-family: Georgia, 'Times New Roman', Times, serif;
+     .disco h3{
+            margin: 10%;
+            padding: 0%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color: #F1FAFF;
+            
+        }
         
-    }
+
+    .disco p{
+        margin: 10%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: #F1FAFF;
+        
+        }
     
     
     .flex3{
@@ -286,7 +298,7 @@ body{
             
         }
         ul li :hover{ 
-            background-color: rgb(48, 121, 205);
+            background-color: rgb(238, 241, 245);
         }    
         
         ul li a{
@@ -426,7 +438,67 @@ body{
     
     /*Comienzo de css para page de Contacto*/
 
- 
+    .contenedor5{
+        max-width: auto;
+        display: flex;
+        background-color: rgb(133, 184, 235);
+    }   
+
+    .contenedor5 h1{
+        font-size: 23px;  
+        padding: 25px;
+        font-family: Georgia, 'Times New Roman', Times, serif; 
+        color: rgb(236, 243, 244);
+        }
+    
+    .flex5{
+        display: flex;
+        color: rgb(101, 206, 224);
+    } 
+    
+    ul{
+        display: flex;
+        list-style: none;
+        padding-left: 5px;
+        width: 5px;
+        
+        }
+        
+        ul li{
+            padding: 10px;
+            text-transform: uppercase;
+            
+            text-decoration:none
+            
+        }
+        ul li :hover{ 
+            background-color: rgb(240, 232, 232);
+        }    
+        
+        ul li a{
+            text-transform: uppercase;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            color: rgb(101, 206, 224);
+        }
+
+        .main{
+            background-color: rgb(188, 188, 188);
+        }
+        .mayor-margen {
+           
+            padding: 5%;
+            
+        }
+
+        .form-label{
+            font-size: 120%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .col-md-8{
+            
+            width: 50%;
+            height: 100%;
+        }
 
     /*Finaliza css page de Contacto*/
     

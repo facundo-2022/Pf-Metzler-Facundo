@@ -7,7 +7,7 @@
   display: flex;
   background-color: #85b8eb; }
 
-.h1 {
+.contenedor h1 {
   /*tamaño de la fuente*/
   font-size: 20px;
   padding: 20px;
@@ -35,11 +35,13 @@ nav {
   background-size: cover; }
 
 .parallax h2 {
+  margin: center;
   text-align: center;
   color: #e5e6f1; }
 
-.campo {
-  padding: 330px;
+.row {
+  margin: center;
+  padding: 10%;
   text-align: center; }
 
 button {
@@ -196,8 +198,16 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #ecf3f4; }
 
+.disco h3 {
+  margin: 10%;
+  padding: 0%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #F1FAFF; }
+
 .disco p {
-  font-family: Georgia, 'Times New Roman', Times, serif; }
+  margin: 10%;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #F1FAFF; }
 
 .flex3 {
   display: flex;
@@ -215,7 +225,7 @@ ul li {
   text-decoration: none; }
 
 ul li :hover {
-  background-color: #3079cd; }
+  background-color: #eef1f5; }
 
 ul li a {
   text-transform: uppercase;
@@ -322,4 +332,52 @@ body {
 
 /*Finaliza css page de Discografia*/
 /*Comienzo de css para page de Contacto*/
+.contenedor5 {
+  max-width: auto;
+  display: flex;
+  background-color: #85b8eb; }
+
+.contenedor5 h1 {
+  font-size: 23px;
+  padding: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #ecf3f4; }
+
+.flex5 {
+  display: flex;
+  color: #65cee0; }
+
+ul {
+  display: flex;
+  list-style: none;
+  padding-left: 5px;
+  width: 5px; }
+
+ul li {
+  padding: 10px;
+  text-transform: uppercase;
+  text-decoration: none; }
+
+ul li :hover {
+  background-color: #f0e8e8; }
+
+ul li a {
+  text-transform: uppercase;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #65cee0; }
+
+.main {
+  background-color: #bcbcbc; }
+
+.mayor-margen {
+  padding: 5%; }
+
+.form-label {
+  font-size: 120%;
+  font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.col-md-8 {
+  width: 50%;
+  height: 100%; }
+
 /*Finaliza css page de Contacto*/
