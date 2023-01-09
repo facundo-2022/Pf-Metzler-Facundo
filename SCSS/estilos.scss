@@ -47,11 +47,12 @@
     }
     
     .parallax h2{
-        padding: 125px;
+        padding: 10%;
         margin: center;
         text-align:center;
         color: rgb(229, 230, 241);
-        font-size: 100px;
+        font-size: 40%;
+        
        
         
     }
@@ -77,8 +78,8 @@
 }
 
 .texto-interior{
-	color:#fff;
-	font-size: 2rem;
+	color:rgb(255, 255, 255);
+	font-size:300px;
 	font-weight: bold;
 	left: 10%;
 	position: absolute;
@@ -150,6 +151,40 @@
         padding: 20%;
         margin: 5%;
         text-align:center;
+    }
+
+    @media (max-width: 576px)  {
+
+        .contenedor{
+            max-width: auto;
+        }
+        .parallax h2{
+            max-width:auto;
+            font-size: 20%; 
+            text-align: center;
+            padding: 15px;
+        }
+        .img-uno{
+            max-width:auto;
+        }
+
+        .img-dos{
+            max-width:auto;
+        }
+        .img-tres{
+            max-width:auto;
+        }
+        .img-cuatro{
+            max-width:auto;
+        }
+
+        .texto-interior{
+            max-width:auto; 
+        }
+        .parallax h2{
+            max-width:auto; 
+        }
+        
     }
     
     
