@@ -28,23 +28,94 @@ nav {
 
 .parallax {
   background-image: url("../IMAGENES/imagen2.PNG");
-  height: auto;
+  height: 500PX;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
 
 .parallax h2 {
+  padding: 125px;
   margin: center;
   text-align: center;
-  color: #e5e6f1; }
+  color: #e5e6f1;
+  font-size: 100px; }
 
-.row {
-  margin: center;
-  padding: 10%;
-  text-align: center; }
+.contenerdorb {
+  display: grid;
+  padding: 50px;
+  padding: 400%; }
+
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30rem;
+  max-width: 100%;
+  position: relative; }
+
+.texto-interior {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  left: 10%;
+  position: absolute;
+  text-align: center;
+  top: 0%;
+  width: 80%; }
+
+.img-uno {
+  background-image: url("../IMAGENES/imagen2.PNG"); }
+
+.img-dos {
+  background-image: url("../IMAGENES/imagen1.PNG"); }
+
+.img-tres {
+  background-image: url("../IMAGENES/imagen5.jpg"); }
+
+.img-cuatro {
+  background-image: url("../IMAGENES/imagen4.jpg"); }
+
+.texto {
+  padding: 5%;
+  width: 90%; }
+
+.gridb {
+  display: grid;
+  grid-template-columns: repeat 15, 20px;
+  grid-template-rows: repeat 15, 20px; }
+
+.titulo3 {
+  grid-row-start: 2;
+  grid-row-end: 6;
+  grid-column-start: 2;
+  grid-column-end: 3; }
+
+.textob {
+  grid-row-start: 3;
+  grid-row-end: 6;
+  grid-column-start: 3;
+  grid-column-end: 7; }
+
+.form-label {
+  text-align: center;
+  padding: 50%;
+  margin: 50%; }
+
+.form-control {
+  text-align: center;
+  padding: 50%;
+  margin: 10%; }
+
+.btn_btn-primary {
+  text-align: center;
+  padding: 50%;
+  margin: 50%; }
 
 button {
+  padding: 20%;
+  margin: 5%;
   text-align: center; }
 
 /*Finaliza page index*/
@@ -370,9 +441,11 @@ ul li a {
   background-color: #bcbcbc; }
 
 .mayor-margen {
-  padding: 5%; }
+  padding: 0%;
+  margin: auto; }
 
 .form-label {
+  text-align: start;
   font-size: 120%;
   font-family: Georgia, 'Times New Roman', Times, serif; }
 
