@@ -7,7 +7,7 @@
     .contenedor{
         max-width: auto;
         display: flex;
-        background-color: rgb(133, 184, 235);
+        background-color: rgb(160, 208, 255);
     }    
     
     .contenedor h1 {
@@ -151,6 +151,18 @@
         padding: 20%;
         margin: 5%;
         text-align:center;
+    }
+
+    .piel{
+        background-color: rgb(80, 157, 235); 
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgb(255, 255, 255);
+        justify-content: center;
+    }
+    .piel h4{
+ 
+        padding: 2%;
+        max-width: auto;
     }
 
     @media (max-width: 576px)  {

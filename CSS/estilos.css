@@ -5,7 +5,7 @@
 .contenedor {
   max-width: auto;
   display: flex;
-  background-color: #85b8eb; }
+  background-color: #a0d0ff; }
 
 .contenedor h1 {
   /*tamaño de la fuente*/
@@ -117,6 +117,16 @@ button {
   padding: 20%;
   margin: 5%;
   text-align: center; }
+
+.piel {
+  background-color: #509deb;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  justify-content: center; }
+
+.piel h4 {
+  padding: 2%;
+  max-width: auto; }
 
 @media (max-width: 576px) {
   .contenedor {
