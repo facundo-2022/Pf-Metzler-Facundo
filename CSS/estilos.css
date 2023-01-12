@@ -98,37 +98,72 @@ nav {
   grid-column-start: 3;
   grid-column-end: 7; }
 
-.form-label {
-  text-align: center;
-  padding: 50%;
-  margin: 50%; }
-
-.form-control {
-  text-align: center;
-  padding: 50%;
-  margin: 10%; }
-
-.btn_btn-primary {
-  text-align: center;
-  padding: 50%;
-  margin: 50%; }
-
-button {
-  padding: 20%;
-  margin: 5%;
-  text-align: center; }
-
-.piel {
+.pie {
   background-color: #509deb;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: white;
-  justify-content: center; }
+  justify-content: center;
+  text-transform: none; }
 
-.piel h4 {
+.pie h4 {
   padding: 2%;
-  max-width: auto; }
+  max-width: auto;
+  text-transform: none; }
+
+.pie p {
+  text-align: justify;
+  text-align: end; }
+
+.email {
+  transform: "email"; }
 
 @media (max-width: 576px) {
+  .contenedor {
+    max-width: auto; }
+  .parallax h2 {
+    max-width: auto;
+    font-size: 20%;
+    text-align: center;
+    padding: 5px;
+    margin-top: 35%;
+    justify-content: center; }
+  .img-uno {
+    max-width: auto; }
+  .img-dos {
+    max-width: auto; }
+  .img-tres {
+    max-width: auto; }
+  .img-cuatro {
+    max-width: auto; }
+  .texto-interior {
+    max-width: auto; }
+  .parallax h2 {
+    max-width: auto; } }
+
+@media (max-width: 768px) {
+  .contenedor {
+    max-width: auto; }
+  .parallax h2 {
+    max-width: auto;
+    font-size: 20%;
+    text-align: center;
+    padding: 5px;
+    margin-top: 15%;
+    justify-content: center; }
+  .img-uno {
+    max-width: auto; }
+  .img-dos {
+    max-width: auto; }
+  .img-tres {
+    max-width: auto; }
+  .img-cuatro {
+    max-width: auto; }
+  .texto-interior {
+    max-width: auto; }
+  .parallax h2 {
+    max-width: auto; } }
+
+@media (max-width: 1200px) {
   .contenedor {
     max-width: auto; }
   .parallax h2 {
