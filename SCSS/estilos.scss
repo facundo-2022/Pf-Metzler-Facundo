@@ -147,6 +147,9 @@
         text-align: end;
     }
 
+    .footer_item{
+        text-align: center;
+    }
    
     @media (max-width: 576px)  {
 
@@ -432,7 +435,7 @@ body{
     
     /*Comienzo de css para page de Discografia*/
     .contenedor3{
-        background-image:url("../IMAGENES/imagen.PNG");
+        background-image:url(".././IMAGENES/imagen8.jpg");
         
         height: 600px;
         background-attachment: fixed;
@@ -454,6 +457,7 @@ body{
             padding: 0%;
             font-family: Georgia, 'Times New Roman', Times, serif;
             color: #F1FAFF;
+            text-decoration: underline;
             
         }
         
@@ -578,7 +582,7 @@ body{
     
     .card__back{
         transform: rotateY(180deg);
-        background: white;
+        background: rgb(247, 245, 245);
     }
     
     .body__card_front{
@@ -623,15 +627,27 @@ body{
         color: white;
         max-width: auto;
         text-align: justify;
-        margin: auto;
+        margin: 3%;
+        padding: 2%;
+        
         
     }
-    .disco1_titulo3{
-        color: white;
+    .titulo3{
+       
         max-width: auto;
         text-align: justify;
         margin: auto;
+        text-decoration: underline;
+        margin-top: 2%;
     }
+    .parrafo1{
+        padding: 2%;
+    }
+
+   
+
+    
+
 
     
    
@@ -688,143 +704,10 @@ body{
             color: rgb(101, 206, 224);
         }
 
-        .textosContacto {
-            grid-column: 1/13;
-            text-align: center;
-        }
         
-        .textosContacto h2 {
-            color: var(--blanco);
-            font-weight: 600;
-            width: 95%;
-            text-shadow: 2px 2px 2px rgba(94, 94, 95, 0.487);
-        }
-        
-        .textosContacto hr {
-            width: 30%;
-            border: 0;
-            height: .2rem;
-            border-radius: 1rem;
-            /* margin-left: 0%; */
-            background-color: var(--secundario);
-        }
-        
-        .correoContacto {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        
-        @media only screen and (min-width: 768px) {
-            .textosContacto {
-               grid-column: 2/7;
-               text-align: left;
-            }
-        
-            .textosContacto hr {
-                margin-left: 0%;
-            }
-        
-            .correoContacto {
-                justify-content: flex-start;
-            }
-        
-            .botonMain {
-                margin-left: 1rem;
-            }
-        }
         
         /* Formulario */
-        .formulario {
-            grid-column: 1/13;
-        /*     text-align: center; */
-            background-color: var(--primarioº);
-            width: min(60rem, 100% );
-            margin: 0 auto;
-            /* padding: 1rem; */
-            margin-bottom: 3rem;
-        }
-        
-        .formulario fieldset {
-            border: none;
-        }
-        
-        .formulario legend {
-            color: var(--secundario);
-            text-align: center;
-            font-size: 2rem;
-            font-weight: 600;
-        }
-        .campo span {
-            color: var(--rojo);
-        }
-        
-        .campo label{
-            display: block;
-            margin: 1.5rem 0 .5rem 0;
-            width: 100%;
-            font-weight: 500;
-        }
-        
-        .campo input {
-            border-radius: .5rem;
-            border: 1rem var(--negro);
-            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-            height: 3rem;
-            /* width: 80%; */
-            width: 100%;
-        }
-        
-        .campo textarea {
-            border-radius: .5rem;
-            border: 1rem var(--negro);
-            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
-            height: 8rem;
-            width: 100%;
-            /* width: 80%; */
-        }
-        
-        @media only screen and (min-width: 1200px) {
-            .cuentas {
-                height: 50rem;
-            }
-        
-            .contacto {
-                height: 50rem;
-            }
-        
-            .formulario {
-                grid-column: 7/12;
-            }
-        
-            .formularioIzquierda {
-                grid-column: 2/7;
-            }
-        }
-        
-        .lineaDivisora {
-            border: 0px solid var(--secundario);
-            height: .2rem;
-            border-radius: 1rem;
-            background-color: var(--secundario);
-        }
-        
-        .botonFormulario {
-            display: inline-block;
-            width: 100%;
-            text-align: center;
-        }
-        
-        @media only screen and (min-width: 1200px) {
-            .botonFormulario {
-                text-align: left;
-                margin-left: 1.5rem;
-            }
-        }
-        
-        .botonFormulario input {
-            padding: auto 2rem;
-        }
+      
 
 
     /*Finaliza css page de Contacto*/

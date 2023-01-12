@@ -110,12 +110,16 @@ nav {
   max-width: auto;
   text-transform: none; }
 
+.col_mail {
+  color: aqua;
+  text-transform: lowercase; }
+
 .pie p {
   text-align: justify;
   text-align: end; }
 
-.email {
-  transform: "email"; }
+.footer_item {
+  text-align: center; }
 
 @media (max-width: 576px) {
   .contenedor {
@@ -324,7 +328,7 @@ body {
 /*Finaliza css page de integrantes*/
 /*Comienzo de css para page de Discografia*/
 .contenedor3 {
-  background-image: url("../IMAGENES/imagen3.PNG");
+  background-image: url(".././IMAGENES/imagen8.jpg");
   height: 600px;
   background-attachment: fixed;
   background-position: center;
@@ -341,7 +345,8 @@ body {
   margin: 10%;
   padding: 0%;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: #F1FAFF; }
+  color: #F1FAFF;
+  text-decoration: underline; }
 
 .disco p {
   margin: 10%;
@@ -434,7 +439,7 @@ body {
 
 .card__back {
   transform: rotateY(180deg);
-  background: white; }
+  background: #f7f5f5; }
 
 .body__card_front {
   width: 100%;
@@ -468,6 +473,23 @@ body {
 .body__card_back table {
   margin-top: 10px;
   font-size: 10px; }
+
+.disco1 {
+  color: white;
+  max-width: auto;
+  text-align: justify;
+  margin: 3%;
+  padding: 2%; }
+
+.titulo3 {
+  max-width: auto;
+  text-align: justify;
+  margin: auto;
+  text-decoration: underline;
+  margin-top: 2%; }
+
+.parrafo1 {
+  padding: 2%; }
 
 /*Finaliza css page de Discografia*/
 /*Comienzo de css para page de Contacto*/
@@ -505,20 +527,5 @@ ul li a {
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #65cee0; }
 
-.main {
-  background-color: #bcbcbc; }
-
-.mayor-margen {
-  padding: 0%;
-  margin: auto; }
-
-.form-label {
-  text-align: start;
-  font-size: 120%;
-  font-family: Georgia, 'Times New Roman', Times, serif; }
-
-.col-md-8 {
-  width: 50%;
-  height: 100%; }
-
+/* Formulario */
 /*Finaliza css page de Contacto*/
