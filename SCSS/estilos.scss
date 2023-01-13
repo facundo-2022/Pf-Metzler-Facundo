@@ -124,30 +124,19 @@
     }
   
     .pie{
-        background-color: rgb(80, 157, 235); 
+        background-color: rgba(41, 147, 246, 0.444); 
         font-family: Georgia, 'Times New Roman', Times, serif;
         color: rgb(255, 255, 255);
         justify-content: center;
         text-transform: none;
+       
         
     }
-    .pie h4{
- 
-        padding: 2%;
-        max-width: auto;
-        text-transform: none;
-    }
-    .col_mail{
-        color: aqua; 
-        text-transform: lowercase ;
-
-    }
-    .pie p{
-        text-align: justify;
-        text-align: end;
-    }
+    
+    
 
     .footer_item{
+        padding: 1%;
         text-align: center;
     }
    
@@ -657,7 +646,67 @@ body{
     
     /*Finaliza css page de Discografia*/
     
+    /*Comienzo de css page de Tout*/
+
+    #tour{
+        background-color: #449de6;
+        padding: 60px 0;
+    }
+    #tour .contenedor4{
+        display: flex;
+        justify-content: space-around;
+    }
     
+    #tour img{
+        width: 100%;
+    }
+
+    #tour .texto{
+        width: 50%;
+    }
+
+    #tour .imagen{
+        width: 40%;
+        position: relative;
+        top: -90px;
+    }
+
+    #tour h4{
+        color: #fff;
+        text-align: center;
+    }
+
+    .fechas{
+        display: flex;
+        justify-content: space-around;
+        width: 85%;
+        padding-bottom: 30px;
+        margin: auto;
+        margin-bottom: 60px;
+        border-bottom: 1px solid #ccc;
+    }
+
+    .fechas .numero{
+        font-size: 34px;
+
+    }
+    .fechas h5, .fechas p{
+        margin:0;
+
+    }
+
+    .fechas h5{
+        font-size: 20px;
+    }
+
+    .fechas a{
+        background: rgba(173, 221, 40, 0.493);
+        border-radius: 10px;
+        color:rgb(255, 255, 255);
+        padding: 15px 30px;
+        text-align: center;
+    }
+     /*Finaliza  css para page Tout*/
     
     /*Comienzo de css para page de Contacto*/
 
