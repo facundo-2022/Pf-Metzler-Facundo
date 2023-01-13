@@ -52,9 +52,6 @@
         text-align:center;
         color: rgb(229, 230, 241);
         font-size: 40%;
-        
-       
-        
     }
    
    
@@ -304,7 +301,7 @@
         
       
       
-        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
 *{
     margin: 0;
@@ -423,8 +420,9 @@ body{
     
     
     /*Comienzo de css para page de Discografia*/
+
     .contenedor3{
-        background-image:url(".././IMAGENES/imagen8.jpg");
+        background-image: url(".././IMAGENES/imagen8.jpg");
         
         height: 600px;
         background-attachment: fixed;
@@ -477,11 +475,9 @@ body{
             text-transform: uppercase;
            
             text-decoration:none
-            
-
-
-            
+         
         }
+
         ul li :hover{ 
             background-color: rgb(238, 241, 245);
         }    
@@ -642,7 +638,7 @@ body{
         background-color: #449de6;
         padding: 60px 0;
     }
-    #tour .contenedor4{
+    #tour .contenedor7{
         display: flex;
         justify-content: space-around;
     }
