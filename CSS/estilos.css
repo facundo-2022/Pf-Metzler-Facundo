@@ -354,15 +354,17 @@ ul {
 ul li {
   padding: 10px;
   text-transform: uppercase;
+  color: #ccc;
   text-decoration: none; }
 
 ul li :hover {
-  background-color: #eef1f5; }
+  background-color: #f2f5f9; }
 
 ul li a {
   text-transform: uppercase;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: #65e079; }
+  color: #65e079;
+  color: #ccc; }
 
 .titulo1 {
   color: #65cee0;
@@ -371,11 +373,6 @@ ul li a {
 .h2 {
   color: #65cee0;
   font-family: Georgia, 'Times New Roman', Times, serif; }
-
-.grid3 {
-  display: grid;
-  grid-template-columns: repeat(12, 100px);
-  grid-template-rows: repeat(25, 100px); }
 
 /*parte nueva de discografia*/
 * {
@@ -478,6 +475,9 @@ body {
 
 .parrafo1 {
   padding: 5%; }
+
+.footer p {
+  color: #ccc; }
 
 /*Finaliza css page de Discografia*/
 /*Comienzo de css page de Tout*/
