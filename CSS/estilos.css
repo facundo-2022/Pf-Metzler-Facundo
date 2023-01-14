@@ -99,14 +99,19 @@ nav {
   grid-column-end: 7; }
 
 .pie {
-  background-color: rgba(41, 147, 246, 0.444);
+  background-color: rgba(204, 204, 204, 0.945);
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: white;
   justify-content: center;
   text-transform: none; }
 
-.footer_item {
-  padding: 1%;
+.footer_item1 {
+  align-items: center;
+  text-align: center;
+  background-color: rgba(204, 204, 204, 0.945); }
+
+.footer_item1 p {
+  color: white;
   text-align: center; }
 
 @media (max-width: 576px) {
@@ -313,6 +318,67 @@ body {
 .body__card_back input:hover {
   box-shadow: 1px 1px 30px 0px #449de6; }
 
+.contenedori {
+  max-width: auto;
+  display: grid; }
+
+.gridi {
+  display: grid;
+  grid-template-columns: repeat(10px, 10px);
+  grid-template-rows: repeat(10px, 10px); }
+
+.animate__slideInLeft {
+  animation-duration: 5s;
+  font-size: 50px;
+  margin: 5%;
+  padding: 1%; }
+
+.animate__zoomIn {
+  animation-duration: 5s;
+  margin: 6%;
+  padding-top: 0%;
+  margin-right: 40%; }
+
+.ben {
+  margin: 6%;
+  padding-top: 0%;
+  margin-left: 40%; }
+
+.animate__slideInRight {
+  animation-duration: 3s; }
+
+.sermon {
+  margin: 6%;
+  padding-top: 0%;
+  margin-right: 40%;
+  text-align: left;
+  margin-right: 40%; }
+
+.daniel {
+  margin: 6%;
+  padding-top: 0%;
+  margin-left: 40%; }
+
+.animate__slideInDown {
+  animation-duration: 5s;
+  font-size: 50px; }
+
+.pie2 {
+  background-color: rgba(204, 204, 204, 0.945);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  justify-content: center;
+  text-transform: none; }
+
+.footer_item1 {
+  align-items: center;
+  text-align: center;
+  background-color: rgba(204, 204, 204, 0.945); }
+
+.footer_item1 p {
+  color: white;
+  text-align: center; }
+
 /*Finaliza css page de integrantes*/
 /*Comienzo de css para page de Discografia*/
 .contenedor3 {
@@ -382,7 +448,7 @@ ul li a {
   font-family: 'Lato', sans-serif; }
 
 body {
-  background: #F1FAFF; }
+  background: #f1faff; }
 
 .container__card {
   max-width: 1200px;
@@ -476,8 +542,14 @@ body {
 .parrafo1 {
   padding: 5%; }
 
+.footer_item1 {
+  align-items: center;
+  text-align: center;
+  background-color: rgba(204, 204, 204, 0.368); }
+
 .footer_item1 p {
-  color: #ccc; }
+  color: white;
+  text-align: center; }
 
 /*Finaliza css page de Discografia*/
 /*Comienzo de css page de Tout*/
