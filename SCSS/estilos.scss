@@ -1010,20 +1010,20 @@ body{
     
     /*Comienzo de css para page de Contacto*/
 
-    .contenedor5{
+    .contenedorC{
         max-width: auto;
         display: flex;
-        background-color: rgb(133, 184, 235);
+        background-color: rgba(238, 134, 8, 0.749);
     }   
 
-    .contenedor5 h1{
+    .contenedorC h1{
         font-size: 23px;  
         padding: 25px;
         font-family: Georgia, 'Times New Roman', Times, serif; 
         color: rgb(236, 243, 244);
         }
     
-    .flex5{
+    .flexC{
         display: flex;
         color: rgb(101, 206, 224);
     } 
@@ -1048,12 +1048,31 @@ body{
         }    
         
         ul li a{
-            text-transform: uppercase;
+            
             font-family:Georgia, 'Times New Roman', Times, serif;
-            color: rgb(101, 206, 224);
+            color: rgba(101, 205, 224, 0.496);
         }
 
-        
+        .contacto{
+            background-image: url("/IMAGENES/contacto.jpg");
+        }
+       .textosContacto{        
+        color: #f1faff;
+        padding: 30px;
+            text-align: center;
+        }
+       
+        .correoContacto{
+            margin-left: 15%;
+        }
+        .formulario{
+            background-color: #f1faff34;
+            width: 50%;
+           margin-left: 25%;
+         
+        }
+
+      
         
         /* Formulario */
       
