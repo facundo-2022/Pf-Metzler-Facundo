@@ -736,18 +736,18 @@ body {
 
 /*Finaliza  css para page Tout*/
 /*Comienzo de css para page de Contacto*/
-.contenedorC {
+.contenedor5 {
   max-width: auto;
   display: flex;
   background-color: rgba(238, 134, 8, 0.749); }
 
-.contenedorC h1 {
+.contenedor5 h1 {
   font-size: 23px;
   padding: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #ecf3f4; }
 
-.flexC {
+.flex5 {
   display: flex;
   color: #65cee0; }
 
