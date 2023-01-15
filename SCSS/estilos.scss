@@ -258,6 +258,7 @@
         max-width: auto;
         display: flex;
         background-color: rgb(133, 184, 235);
+       ;
     }   
 
     .contenedor2 h1{
@@ -399,7 +400,7 @@ body{
 }
 
 .body__card_back p{
-    margin-top: 30px;
+    margin-top: 70px;
     font-size: 18px;
 }
 
@@ -424,25 +425,24 @@ body{
 .contenedori{
     max-width: auto;
     display: grid;
-}
-.gridi{
-    display: grid;
-    grid-template-columns: repeat(10px, 10px);
-    grid-template-rows: repeat(10px, 10px);
+   
 }
 
-.animate__slideInLeft{
- animation-duration: 5s;
- font-size: 50px;
- margin: 5%;
- padding: 1%;
-}
-.animate__zoomIn{
-    animation-duration: 5s;
+
+.daniels{
+   
     margin: 6%;
     padding-top: 0%;
     margin-right: 40%;
 }
+
+.animate__zoomIn{
+ animation-duration: 5s;
+ font-size: 50px;
+
+}
+
+
 
 .ben{
     margin: 6%;
@@ -450,20 +450,24 @@ body{
     margin-left: 40%;
     
 }
-.animate__slideInRight{
-    animation-duration: 3s;
-    
+
+.animate__zoomInLeft{
+    animation-duration: 5s;
+    font-size: 50px;
 }
+
 
 .sermon{
     margin: 6%;
     padding-top: 0%;
     margin-right: 40%;
-    text-align: left;
-    margin-right: 40%;
 }
 
 
+.animate__zoomInRight{
+    animation-duration: 5s;
+    font-size: 50px;
+}
 
 .daniel{
     margin: 6%;
@@ -471,24 +475,10 @@ body{
     margin-left: 40%;
 }
 
-.animate__slideInDown{
+.animate__bounceInLeft{
     animation-duration: 5s;
     font-size: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -526,7 +516,7 @@ body{
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-       
+        overflow-y: scroll;
 
         
     }
