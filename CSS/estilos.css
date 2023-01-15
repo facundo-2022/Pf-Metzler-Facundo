@@ -185,6 +185,14 @@ nav {
 
 /*Finaliza page index*/
 /*Comienzo de css para page de integrantes*/
+.main {
+  background-image: url("/IMAGENES/int.jpg");
+  height: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 .contenedor2 {
   background-color: rgba(204, 204, 204, 0.456); }
 
@@ -219,14 +227,6 @@ ul li a {
 .titulo2 {
   color: #65cee0;
   font-family: Georgia, 'Times New Roman', Times, serif; }
-
-.main {
-  background-image: url("/IMAGENES/int.jpg");
-  height: auto;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
 
 * {
   margin: 0;

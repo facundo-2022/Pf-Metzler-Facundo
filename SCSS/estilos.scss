@@ -254,10 +254,17 @@
     
     /*Comienzo de css para page de integrantes*/
 
+    .main{
+        background-image: url("/IMAGENES/int.jpg");
+        height: auto;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+         }
     .contenedor2{
       background-color: rgba(204, 204, 204, 0.456);
-
-            
+     
     }   
 
     .contenedor2 h1{
@@ -303,14 +310,7 @@
         }
 
      
-        .main{
-       background-image: url("/IMAGENES/int.jpg");
-       height: auto;
-       background-attachment: fixed;
-       background-position: center;
-       background-repeat: no-repeat;
-       background-size: cover;
-        }
+       
       
       
  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
