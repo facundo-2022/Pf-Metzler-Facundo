@@ -221,7 +221,7 @@ ul li a {
   font-family: Georgia, 'Times New Roman', Times, serif; }
 
 .main {
-  background-image: url("../IMAGENES/int.jpg");
+  background-image: url("/IMAGENES/int.jpg");
   height: auto;
   background-attachment: fixed;
   background-position: center;
