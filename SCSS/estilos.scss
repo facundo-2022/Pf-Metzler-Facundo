@@ -255,20 +255,20 @@
     /*Comienzo de css para page de integrantes*/
 
     .contenedor2{
-        max-width: auto;
-        display: flex;
-        background-color: rgb(133, 184, 235);
-       ;
+      background-color: rgba(204, 204, 204, 0.456);
+
+            
     }   
 
     .contenedor2 h1{
         font-size: 23px;  
         padding: 25px;
         font-family: Georgia, 'Times New Roman', Times, serif; 
-        color: rgb(236, 243, 244);
+        color: rgb(22, 21, 21);
         }
     
     .flex2{
+        
         display: flex;
         color: rgb(101, 206, 224);
     } 
@@ -303,7 +303,14 @@
         }
 
      
-        
+        .main{
+       background-image: url("/IMAGENES/int.jpg");
+       height: auto;
+       background-attachment: fixed;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+        }
       
       
  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
@@ -434,9 +441,13 @@ body{
     margin: 6%;
     padding-top: 0%;
     margin-right: 40%;
+    color: rgb(11, 11, 11);
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.584);
 }
 
 .animate__zoomIn{
+    color: rgb(251, 110, 110);
  animation-duration: 5s;
  font-size: 50px;
 
@@ -448,10 +459,16 @@ body{
     margin: 6%;
     padding-top: 0%;
     margin-left: 40%;
-    
+    color: rgb(11, 11, 11);
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.584);
 }
 
+    
+
+
 .animate__zoomInLeft{
+    color: rgb(251, 110, 110);
     animation-duration: 5s;
     font-size: 50px;
 }
@@ -461,10 +478,15 @@ body{
     margin: 6%;
     padding-top: 0%;
     margin-right: 40%;
+    color: rgb(11, 11, 11);
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.584);
 }
 
 
+
 .animate__zoomInRight{
+    color: rgb(251, 110, 110);
     animation-duration: 5s;
     font-size: 50px;
 }
@@ -473,9 +495,14 @@ body{
     margin: 6%;
     padding-top: 0%;
     margin-left: 40%;
+    color: rgb(11, 11, 11);
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.584);
 }
 
+
 .animate__bounceInLeft{
+    color: rgb(251, 110, 110);
     animation-duration: 5s;
     font-size: 50px;
 }
@@ -483,7 +510,7 @@ body{
 
 
 .pie2{
-    background-color:  rgba(204, 204, 204, 0.945); 
+    background-color:  rgba(204, 204, 204, 0.251); 
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(255, 255, 255);
     justify-content: center;
@@ -495,7 +522,7 @@ body{
 .footer_item1{
     align-items: center;
     text-align: center;
-    background-color: rgba(204, 204, 204, 0.945);
+    background-color: rgba(204, 204, 204, 0.481);
 }
 
 .footer_item1 p{
@@ -510,14 +537,14 @@ body{
 
     .contenedor3{
         background-image: url(".././IMAGENES/imagen8.jpg");
-        
+        background-color: rgb(204, 204, 204);
         height: auto;
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
         overflow-y: scroll;
-
+        background-color: rgba(204, 204, 204, 0.592);
         
     }
     .contenedor3 h1{

@@ -186,15 +186,13 @@ nav {
 /*Finaliza page index*/
 /*Comienzo de css para page de integrantes*/
 .contenedor2 {
-  max-width: auto;
-  display: flex;
-  background-color: #85b8eb; }
+  background-color: rgba(204, 204, 204, 0.456); }
 
 .contenedor2 h1 {
   font-size: 23px;
   padding: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  color: #ecf3f4; }
+  color: #161515; }
 
 .flex2 {
   display: flex;
@@ -222,6 +220,14 @@ ul li a {
 .titulo2 {
   color: #65cee0;
   font-family: Georgia, 'Times New Roman', Times, serif; }
+
+.main {
+  background-image: url("/IMAGENES/int.jpg");
+  height: auto;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 * {
   margin: 0;
@@ -325,41 +331,57 @@ body {
 .daniels {
   margin: 6%;
   padding-top: 0%;
-  margin-right: 40%; }
+  margin-right: 40%;
+  color: #0b0b0b;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.584); }
 
 .animate__zoomIn {
+  color: #fb6e6e;
   animation-duration: 5s;
   font-size: 50px; }
 
 .ben {
   margin: 6%;
   padding-top: 0%;
-  margin-left: 40%; }
+  margin-left: 40%;
+  color: #0b0b0b;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.584); }
 
 .animate__zoomInLeft {
+  color: #fb6e6e;
   animation-duration: 5s;
   font-size: 50px; }
 
 .sermon {
   margin: 6%;
   padding-top: 0%;
-  margin-right: 40%; }
+  margin-right: 40%;
+  color: #0b0b0b;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.584); }
 
 .animate__zoomInRight {
+  color: #fb6e6e;
   animation-duration: 5s;
   font-size: 50px; }
 
 .daniel {
   margin: 6%;
   padding-top: 0%;
-  margin-left: 40%; }
+  margin-left: 40%;
+  color: #0b0b0b;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0.584); }
 
 .animate__bounceInLeft {
+  color: #fb6e6e;
   animation-duration: 5s;
   font-size: 50px; }
 
 .pie2 {
-  background-color: rgba(204, 204, 204, 0.945);
+  background-color: rgba(204, 204, 204, 0.251);
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: white;
   justify-content: center;
@@ -368,7 +390,7 @@ body {
 .footer_item1 {
   align-items: center;
   text-align: center;
-  background-color: rgba(204, 204, 204, 0.945); }
+  background-color: rgba(204, 204, 204, 0.481); }
 
 .footer_item1 p {
   color: white;
@@ -378,12 +400,14 @@ body {
 /*Comienzo de css para page de Discografia*/
 .contenedor3 {
   background-image: url(".././IMAGENES/imagen8.jpg");
+  background-color: #cccccc;
   height: auto;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  overflow-y: scroll; }
+  overflow-y: scroll;
+  background-color: rgba(204, 204, 204, 0.592); }
 
 .contenedor3 h1 {
   font-size: 23px;
