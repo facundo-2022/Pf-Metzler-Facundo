@@ -185,16 +185,14 @@ nav {
 
 /*Finaliza page index*/
 /*Comienzo de css para page de integrantes*/
-.main {
+.contenedor2 {
+  background-color: rgba(204, 204, 204, 0.456);
   background-image: url("/IMAGENES/int.jpg");
   height: auto;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
-
-.contenedor2 {
-  background-color: rgba(204, 204, 204, 0.456); }
 
 .contenedor2 h1 {
   font-size: 23px;
