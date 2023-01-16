@@ -78,6 +78,7 @@ nav {
   background-image: url("../IMAGENES/imagen4.jpg"); }
 
 .texto {
+  text-align: justify;
   padding: 5%;
   width: 90%; }
 
@@ -571,6 +572,9 @@ body {
   color: #fff;
   text-align: center; }
 
+.comprar {
+  text-align: left; }
+
 .fechas {
   display: flex;
   margin-top: 5%;
@@ -582,7 +586,7 @@ body {
   border-bottom: 1px solid #ccc; }
 
 .fechas .numero {
-  font-size: 34px; }
+  font-size: 30px; }
 
 .fechas h5, .fechas p {
   margin: 0; }
@@ -594,7 +598,7 @@ body {
   background: rgba(173, 221, 40, 0.493);
   border-radius: 10px;
   color: white;
-  padding: 15px 30px;
+  padding: 5px 20px;
   text-align: center; }
 
 /*Responsive de tour*/
@@ -616,24 +620,22 @@ body {
     text-align: center; }
   .fechas {
     display: flex;
-    justify-content: space-around;
-    width: 85%;
-    padding-bottom: 30px;
+    width: 5%;
+    padding-bottom: 5px;
     margin: auto;
-    margin-bottom: 60px;
+    margin-bottom: 5px;
     border-bottom: 1px solid #ccc; }
   .fechas .numero {
-    font-size: 34px; }
+    font-size: 5px; }
   .fechas h5, .fechas p {
     margin: 0; }
   .fechas h5 {
-    font-size: 20px; }
+    font-size: 5px; }
   .fechas a {
     background: rgba(173, 221, 40, 0.493);
-    border-radius: 10px;
+    border-radius: 2px;
     color: white;
-    padding: 15px 30px;
-    text-align: center; } }
+    padding: 5px 5px; } }
 
 @media (max-width: 768px) {
   .tour {
