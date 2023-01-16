@@ -255,6 +255,7 @@
     .contenedor2 h1{
         font-size: 23px;  
         padding: 25px;
+        margin: 15px;
         font-family: Georgia, 'Times New Roman', Times, serif; 
         color:  #ce6060;
         }
@@ -483,6 +484,7 @@ body{
     color: rgb(11, 11, 11);
     font-size: 20px;
     background-color: rgba(255, 255, 255, 0.584);
+    text-align: justify;
 }
 
 
@@ -491,6 +493,8 @@ body{
     animation-duration: 5s;
     font-size: 50px;
 }
+
+
 
 
 
@@ -514,6 +518,9 @@ body{
     color: rgb(255, 255, 255);
     text-align: center;
 }
+
+/*Responsive de tour*/
+
     /*Finaliza css page de integrantes*/
     
     
@@ -522,7 +529,7 @@ body{
 
     .contenedor3{
         background-image: url(".././IMAGENES/PXOPY6KQXBEP7G2V7O2GEAB5GI.jpg");
-        background-color: rgb(204, 204, 204);
+     
         height: auto;
         background-attachment: fixed;
         background-position: center;
@@ -1098,6 +1105,10 @@ body{
         background-color: #f1faff34;
         width: 70%;
        margin-left: 15%;
+       
+    }
+    .campo1{
+        text-align: left;
     }
  }
       

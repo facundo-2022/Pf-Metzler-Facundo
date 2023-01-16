@@ -182,6 +182,7 @@ nav {
 .contenedor2 h1 {
   font-size: 23px;
   padding: 25px;
+  margin: 15px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #ce6060; }
 
@@ -355,7 +356,8 @@ body {
   margin-left: 40%;
   color: #0b0b0b;
   font-size: 20px;
-  background-color: rgba(255, 255, 255, 0.584); }
+  background-color: rgba(255, 255, 255, 0.584);
+  text-align: justify; }
 
 .animate__bounceInLeft {
   color: #fb6e6e;
@@ -378,11 +380,11 @@ body {
   color: white;
   text-align: center; }
 
+/*Responsive de tour*/
 /*Finaliza css page de integrantes*/
 /*Comienzo de css para page de Discografia*/
 .contenedor3 {
   background-image: url(".././IMAGENES/PXOPY6KQXBEP7G2V7O2GEAB5GI.jpg");
-  background-color: #cccccc;
   height: auto;
   background-attachment: fixed;
   background-position: center;
@@ -801,7 +803,9 @@ ul li a {
   .formulario {
     background-color: #f1faff34;
     width: 70%;
-    margin-left: 15%; } }
+    margin-left: 15%; }
+  .campo1 {
+    text-align: left; } }
 
 /* Formulario */
 /*Finaliza css page de Contacto*/
